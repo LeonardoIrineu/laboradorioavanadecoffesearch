@@ -11,7 +11,8 @@ Este guia explica como configurar um serviço de pesquisa no Azure AI Search, in
 - **Tipo de preço**: `Básico` (ideal para testes).
 - **Partições/Réplicas**: 1 (ajuste conforme demanda).
 
-![Configuração do Serviço](image.png)  
+![image](https://github.com/user-attachments/assets/79142abb-da46-4b1b-b76d-9c4c63ba05af)
+
 *(Painel de fundamentos do serviço "avanadeirineu")*
 
 ---
@@ -23,17 +24,16 @@ Este guia explica como configurar um serviço de pesquisa no Azure AI Search, in
   - `Descrição` (string, pesquisável)
   - `ID` (chave primária).
 
-![image](image.png)  
-*(Resultado vazio ao consultar `coffee-index` antes da importação de dados)*
+![image](https://github.com/user-attachments/assets/9a5434fd-9ace-43e8-b6e3-0e7b5cf6c7f4)
 
----
 
 ### 3. Importar Dados do Armazenamento
 - Use o contêiner **`coffee-statistic`** como fonte:
   - **Tipo de dado**: Blobs JSON/CSV.
   - **Mapeamento**: Associe campos do blob ao índice.
 
-![Contêineres de Armazenamento](image.png)  
+![image](https://github.com/user-attachments/assets/6fbe8152-41c0-4455-ae3a-7d5e5b261f40)
+
 *(Lista de contêineres em `avanadelaboratoriodio`, incluindo `coffee-statistic`)*
 
 ---
@@ -42,7 +42,8 @@ Este guia explica como configurar um serviço de pesquisa no Azure AI Search, in
 - Adicione regras no **Controle de Acesso (IAM)**:
   - Restrinja acesso por funções (ex: `Leitor de Dados`).
 
-![Controle de Acesso]()  
+![image](https://github.com/user-attachments/assets/e03a8839-2c80-4175-82c2-c9a8ad06ea66)
+
 *(Menu de IAM e marcas no serviço)*
 
 ---
